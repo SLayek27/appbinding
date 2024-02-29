@@ -29,7 +29,20 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+CustomButton(
+    btnText: 'Login',
+    bgColor: Colors.blue,
+    icon: Icon(Icons.lock_open, color: Colors.white,),
+    textStyle: TextStyle(
+        color: Colors.white,
+        fontSize: 12.0,
+        letterSpacing: 2,
+        fontWeight: FontWeight.w600,
+    ),
+    callBack: (){
+    
+    },
+);
 ```
 
 ## Additional information

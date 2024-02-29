@@ -1,7 +1,7 @@
 name: appbinding
 description: "A complete package for flutter applications"
 version: 0.0.1
-homepage:
+homepage: https://github.com/SLayek27/appbinding.git
 
 environment:
   sdk: '>=3.4.0-187.0.dev <4.0.0'

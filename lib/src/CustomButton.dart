@@ -2,13 +2,20 @@ import 'package:flutter/material.dart';
 
 class CustomButton extends StatefulWidget{
 
-  CustomButton({required this.btnText, this.bgColor = Colors.blue, this.icon, this.textStyle, this.callBack});
+  CustomButton({
+    required this.btnText,
+    this.bgColor = Colors.blue,
+    this.icon,
+    this.textStyle,
+    this.callBack,
+    this.cornerRadiation});
 
   final String btnText;
   final Icon? icon;
   final Color? bgColor;
   final TextStyle? textStyle;
   final VoidCallback? callBack;
+  final int?cornerRadiation;
 
   @override
   _CustomButtonState createState() => _CustomButtonState();
