@@ -11,12 +11,11 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: This is the complete package for flutter applications. This helps us to build a flutter app easily.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+TODO: 1. Custom Button
 
 ## Getting started
 
@@ -29,20 +28,7 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-CustomButton(
-    btnText: 'Login',
-    bgColor: Colors.blue,
-    icon: Icon(Icons.lock_open, color: Colors.white,),
-    textStyle: TextStyle(
-        color: Colors.white,
-        fontSize: 12.0,
-        letterSpacing: 2,
-        fontWeight: FontWeight.w600,
-    ),
-    callBack: (){
-    
-    },
-);
+CustomButton();
 ```
 
 ## Additional information
