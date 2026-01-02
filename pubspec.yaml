@@ -1,6 +1,6 @@
 name: appbinding
 description: "A complete package for flutter applications"
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/SLayek27/appbinding.git
 
 environment:
@@ -10,11 +10,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  intl:
+  go_router: ^14.6.0
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
