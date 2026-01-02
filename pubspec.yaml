@@ -4,7 +4,8 @@ version: 0.0.2
 homepage: https://github.com/SLayek27/appbinding.git
 
 environment:
-  sdk: '>=3.4.0-187.0.dev <4.0.0'
+  #sdk: '>=3.4.0-187.0.dev <4.0.0'
+  sdk: '>=3.4.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
